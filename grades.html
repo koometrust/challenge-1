@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Generator</title>
+    <link rel="stylesheet" href="grades.css">
+</head>
+<body>
+    <Header> 
+        <h1 id="header">Student Grade Generator</h1>
+    </Header>
+    <img id="knec" src="https://i0.wp.com/kenyayote.com/wp-content/uploads/2019/02/Download-KCSE-2019-Timetable-from-KNEC-and-learn-about-starting-subjects-and-deadline-for-projects-marks-submission.jpg?fit=1127%2C779&ssl=1" alt="KCSE 2019 Timetable">
+
+   
+    <label for="marks"> student marks input:</label>
+	<input id="marks" type="number" name="marks">
+
+
+	<button onclick="calculateGrade()">Calculate now</button>
+    
+    <p id="feedback"></p>
+    <footer>
+        Every Grade Matters
+      </footer>
+      
+    <script src="grades.js"></script>
+</body>
+</html>
