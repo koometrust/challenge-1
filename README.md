@@ -15,10 +15,10 @@ A simple web app that generates a student's grade based on their inputted marks.
 - JavaScript
 
 ## Credits
--Jude Koome
 - [OpenAI](https://openai.com/) for the technology used to create the chatbot.
 - [ChatGPT](https://github.com/chatgpt) for the chatbot implementation.
 - [Freepik](https://www.freepik.com) for the background image used in the app.
+- Jude Koome
 
 ## License
 
